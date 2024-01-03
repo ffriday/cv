@@ -86,3 +86,14 @@
 .main__section > *:last-child {
   max-width: 80%;
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills > p:not(:last-child)::after {
+  content: '|';
+  color: var(--second-font-color);
+  margin: 0 var(--social-margin) 0 var(--social-margin);
+}
