@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main__section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.main__section > *:first-child {
+  flex-grow: 0.2;
+}
+
+.main__section > *:last-child {
+  flex-grow: 0.8;
+  padding-left: var(--section-padding-left);
+}
+
+.main__section > img {
+  max-width: var(--photo-max-size);
+  max-height: var(--photo-max-size);
+  border-radius: calc(var(--photo-max-size) / 2);
+}
+
+.main__section > h1 {
+  font-family: 'Abril Fatface', serif;
+  text-transform: uppercase;
+  font-size: var(--font-name);
+}

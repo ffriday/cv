@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 :root {
   /* fonts */
   --font-header: 0.7rem;
   --font-weight-header: 400;
+  --font-name: 2rem;
   /* dimansions */
   --main-width: 95%;
   --main-max-width: 800px;
   --social-margin: 0.7rem;
-  --padding-top: 1rem;
+  --padding-header-top: 1rem;
+  --padding-header-bottom: 1rem;
   --contacts-gap: 3px;
+  --photo-max-size: 150px;
+  --section-padding-left: 5rem;
   /* colors */
   --main-font-color: black;
   --contacts-font-color: rgba(0, 0, 0, 0.6);
@@ -16,6 +22,18 @@
 @media screen and (min-width: 768px){
   :root {
     --main-width: 80%;
-    --padding-top: 2rem;
+    --padding-header-top: 2rem;
+    --padding-header-bottom: 3rem;
+    --font-name: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  :root {
+    --main-width: 97%;
+    --social-margin: 0.3rem;
+    --photo-max-size: 75px;
+    --section-padding-left: 1rem;
+    --font-name: 1.5rem;
   }
 }

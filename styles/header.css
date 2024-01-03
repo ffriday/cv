@@ -7,13 +7,13 @@
   font-family: 'Inter', sans-serif;
   font-size: var(--font-header);
   font-weight: var(--font-weight-header);
-  padding-top: var(--padding-top);
+  padding-top: var(--padding-header-top);
+  padding-bottom: var(--padding-header-bottom);
 }
 
 .header__caption {
   font-size: var(--font-header);
   font-weight: var(--font-weight-header);
-  margin: 0;
 }
 
 .header__social {
@@ -35,6 +35,7 @@
   flex-direction: column;
   align-items: flex-end;
   gap: var(--contacts-gap);
+  padding-left: var(--social-margin);
 }
 
 .header__contacts > a {
