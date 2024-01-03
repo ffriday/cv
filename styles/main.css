@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding-bottom: var(--section-padding-bottom);
 }
 
 .main__section > *:first-child {
@@ -29,4 +30,12 @@
   font-family: 'Abril Fatface', serif;
   text-transform: uppercase;
   font-size: var(--font-name);
+}
+
+.main__section > h3 {
+  text-transform: uppercase;
+  font-size: var(--caption-font-size);
+  color: var(--second-font-color);
+  letter-spacing: calc(var(--caption-font-size) / 100 * 3);
+  font-weight: var(--font-weight-section);
 }

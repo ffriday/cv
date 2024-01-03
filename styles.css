@@ -16,6 +16,7 @@ body {
   width: var(--main-width);
   max-width: var(--main-max-width);
   flex-direction: column;
+  font-family: 'Inter', sans-serif;
 }
 
 ul {
@@ -27,8 +28,9 @@ a {
   color: var(--main-font-color);
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
   margin: 0;
+  padding: 0;
 }
 
 .cv {

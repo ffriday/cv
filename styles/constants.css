@@ -4,6 +4,7 @@
   /* fonts */
   --font-header: 0.7rem;
   --font-weight-header: 400;
+  --font-weight-section: 500;
   --font-name: 2rem;
   /* dimansions */
   --main-width: 95%;
@@ -14,9 +15,11 @@
   --contacts-gap: 3px;
   --photo-max-size: 150px;
   --section-padding-left: 5rem;
+  --section-padding-bottom: 2.5rem;
+  --caption-font-size: 1rem;
   /* colors */
   --main-font-color: black;
-  --contacts-font-color: rgba(0, 0, 0, 0.6);
+  --second-font-color: rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (min-width: 768px){
@@ -35,5 +38,6 @@
     --photo-max-size: 75px;
     --section-padding-left: 1rem;
     --font-name: 1.5rem;
+    --caption-font-size: 0.9rem;
   }
 }
