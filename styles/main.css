@@ -12,22 +12,56 @@
   gap: var(--section-gap);
 }
 
-.main__section > img {
+.section__image::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.section__image {
   max-width: var(--photo-max-size);
   max-height: var(--photo-max-size);
   min-width: calc(var(--photo-max-size) / 1.5);
   min-height: calc(var(--photo-max-size) / 1.5);
   width: 100%;
-  height: auto;
-  border-radius: calc(var(--photo-max-size) / 2);
+  height: 100%;
   object-fit: contain;
+  position: relative;
   aspect-ratio: 1 / 1;
+}
+
+@media screen and (max-width: 550px){
+  .section__image > img {
+    visibility: hidden;
+  }
+  .section__image {
+    width: 0px;
+  }
+}
+
+.section__image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .main__section > h1 {
   font-family: 'Abril Fatface', serif;
   text-transform: uppercase;
   font-size: var(--font-name);
+}
+
+.main__section + p {
+  font-size: var(--font-section);
+}
+
+.main__description {
+  font-size: var(--font-description);
+  color: var(--second-font-color);
 }
 
 .main__section > h3 {
@@ -39,6 +73,16 @@
   font-weight: var(--font-weight-section);
 }
 
-.main__section > p {
+.main__section h4 {
   font-size: var(--font-section);
+}
+
+.main__section > *:first-child {
+  min-width: 20%;
+  writing-mode: var(--text-direction);
+  text-orientation: upright;
+}
+
+.main__section > *:last-child {
+  max-width: 80%;
 }

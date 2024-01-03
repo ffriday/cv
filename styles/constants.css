@@ -7,6 +7,8 @@
   --font-weight-section: 500;
   --font-name: 2rem;
   --font-section: 1rem;
+  --font-description: 0.9rem;
+  --text-direction: mixed;
   /* dimansions */
   --main-width: 95%;
   --main-max-width: 800px;
@@ -15,7 +17,7 @@
   --padding-header-bottom: 1rem;
   --contacts-gap: 3px;
   --photo-max-size: 140px;
-  --section-gap: 5rem;
+  --section-gap: 3rem;
   --section-padding-bottom: 2.5rem;
   --caption-font-size: 1rem;
   /* colors */
@@ -29,18 +31,19 @@
     --padding-header-top: 2rem;
     --padding-header-bottom: 3rem;
     --font-name: 3rem;
-    --section-gap: 4rem;
+    --section-gap: 5rem;
   }
 }
 
 @media screen and (max-width: 400px){
   :root {
-    --main-width: 97%;
+    --main-width: 98%;
     --social-margin: 0.3rem;
     --section-padding-left: 2rem;
     --font-name: 1.5rem;
     --caption-font-size: 0.9rem;
     --font-section: 0.9rem;
     --section-gap: 1rem;
+    --text-direction: vertical-lr;
   }
 }
