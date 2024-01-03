@@ -4,6 +4,10 @@
 @import url('./styles/aside.css');
 @import url('./styles/main.css');
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   width: 100%;
   height: 100%;

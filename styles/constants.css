@@ -6,15 +6,16 @@
   --font-weight-header: 400;
   --font-weight-section: 500;
   --font-name: 2rem;
+  --font-section: 1rem;
   /* dimansions */
   --main-width: 95%;
   --main-max-width: 800px;
   --social-margin: 0.7rem;
-  --padding-header-top: 1rem;
+  --padding-header-top: 2rem;
   --padding-header-bottom: 1rem;
   --contacts-gap: 3px;
-  --photo-max-size: 150px;
-  --section-padding-left: 5rem;
+  --photo-max-size: 140px;
+  --section-gap: 5rem;
   --section-padding-bottom: 2.5rem;
   --caption-font-size: 1rem;
   /* colors */
@@ -28,6 +29,7 @@
     --padding-header-top: 2rem;
     --padding-header-bottom: 3rem;
     --font-name: 3rem;
+    --section-gap: 4rem;
   }
 }
 
@@ -35,9 +37,10 @@
   :root {
     --main-width: 97%;
     --social-margin: 0.3rem;
-    --photo-max-size: 75px;
-    --section-padding-left: 1rem;
+    --section-padding-left: 2rem;
     --font-name: 1.5rem;
     --caption-font-size: 0.9rem;
+    --font-section: 0.9rem;
+    --section-gap: 1rem;
   }
 }
