@@ -1,0 +1,21 @@
+:root {
+  /* fonts */
+  --font-header: 0.7rem;
+  --font-weight-header: 400;
+  /* dimansions */
+  --main-width: 95%;
+  --main-max-width: 800px;
+  --social-margin: 0.7rem;
+  --padding-top: 1rem;
+  --contacts-gap: 3px;
+  /* colors */
+  --main-font-color: black;
+  --contacts-font-color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 768px){
+  :root {
+    --main-width: 80%;
+    --padding-top: 2rem;
+  }
+}
